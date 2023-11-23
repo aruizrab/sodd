@@ -1,0 +1,25 @@
+{
+  "name": "com.github.aruizrab.sodd.Editor.Tests",
+  "rootNamespace": "SODD.Editor.Tests",
+  "references": [
+    "GUID:0acc523941302664db1f4e527237feb3",
+    "GUID:27619889b8ba8c24980f49ee34dbb44a",
+    "GUID:5626674022ae95c4383da13ce29edcbd",
+    "GUID:b20da2178041fe94abb6be05f6276677"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [
+    "nunit.framework.dll"
+  ],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

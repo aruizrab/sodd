@@ -1,0 +1,18 @@
+{
+  "name": "com.github.aruizrab.sodd.Editor",
+  "rootNamespace": "SODD.Editor",
+  "references": [
+    "GUID:5626674022ae95c4383da13ce29edcbd"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
