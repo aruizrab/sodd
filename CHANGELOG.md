@@ -10,4 +10,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added:
 
 - IEvent interface.
-- Event abstract class.
+- Event abstract class as base for all scriptable object events.
+- IntEvent class, a scriptable object event that takes an integer as payload.
