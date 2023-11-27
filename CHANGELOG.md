@@ -15,3 +15,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - FloatEvent class, a scriptable object event that takes a float number as payload.
 - BoolEvent class, a scriptable object event that takes a bool as payload.
 - IEventListener interface.
+- EventListener abstract class as base for all event listener components.
