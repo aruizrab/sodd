@@ -13,3 +13,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Event abstract class as base for all scriptable object events.
 - IntEvent class, a scriptable object event that takes an integer as payload.
 - FloatEvent class, a scriptable object event that takes a float number as payload.
+- BoolEvent class, a scriptable object event that takes a bool as payload.
