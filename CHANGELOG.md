@@ -32,3 +32,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - BoolVariable class, a scriptable object variable that holds bool values.
 - StringVariable class, a scriptable object variable that holds string values.
 - Vector2Variable class, a scriptable object variable that holds Vector2 values.
+- Vector3Variable class, a scriptable object variable that holds Vector3 values.
