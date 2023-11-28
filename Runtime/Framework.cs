@@ -80,5 +80,43 @@ namespace SODD
             public const string Component = Path + "Component";
             public const string Reference = Path + "Reference";
         }
+        public static class EventListeners
+        {
+            public const string Path = Root + "Event Listeners/";
+            
+            public const string Void = Path + "Void";
+            public const string Bool = Path + "Bool";
+            public const string Float = Path + "Float";
+            public const string Int = Path + "Int";
+            public const string String = Path + "String";
+            public const string Enum = Path + "Enum";
+            public const string List = Path + "List";
+            public const string Dictionary = Path + "Dictionary";
+            public const string Vector2 = Path + "Vector2";
+            public const string Vector3 = Path + "Vector3";
+            public const string Color = Path + "Color";
+            public const string LayerMask = Path + "LayerMask";
+            public const string AudioClip = Path + "Audio Clip";
+            public const string GameObject = Path + "GameObject";
+            public const string Component = Path + "Component";
+            public const string Reference = Path + "Reference";
+
+            public const string VoidEventListener = Path + "Void Event Listener";
+            public const string BoolEventListener = Path + "Bool Event Listener";
+            public const string FloatEventListener = Path + "Float Event Listener";
+            public const string IntEventListener = Path + "Int Event Listener";
+            public const string StringEventListener = Path + "String Event Listener";
+            public const string EnumEventListener = Path + "Enum Event Listener";
+            public const string ListEventListener = Path + "List Event Listener";
+            public const string DictionaryEventListener = Path + "Dictionary Event Listener";
+            public const string Vector2EventListener = Path + "Vector2 Event Listener";
+            public const string Vector3EventListener = Path + "Vector3 Event Listener";
+            public const string ColorEventListener = Path + "Color Event Listener";
+            public const string LayerMaskEventListener = Path + "LayerMask Event Listener";
+            public const string AudioClipEventListener = Path + "Audio Event Listener Clip";
+            public const string GameObjectEventListener = Path + "GameObject Event Listener";
+            public const string ComponentEventListener = Path + "Component Event Listener";
+            public const string ReferenceEventListener = Path + "Reference Event Listener";
+        }
     }
 }

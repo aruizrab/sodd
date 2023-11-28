@@ -21,5 +21,14 @@ namespace SODD.Editor.Utils
             path += $"/{ObjectNames.NicifyVariableName(asset.GetType().Name)}.asset";
             ProjectWindowUtil.CreateAsset(asset, path);
         }
+        
+        public static void CreateGameObject<T>(GameObject parent) where T : Component
+        {
+            var obj = new GameObject(ObjectNames.NicifyVariableName(typeof(T).Name));
+            obj.AddComponent<T>();
+            GameObjectUtility.SetParentAndAlign(obj, parent);
+            Undo.RegisterCreatedObjectUndo(obj, "Create " + obj.name);
+            Selection.activeObject = obj;
+        }
     }
 }
