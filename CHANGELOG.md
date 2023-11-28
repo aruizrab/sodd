@@ -20,3 +20,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - FloatEventListener, a component that listens for scriptable object events with float payloads.
 - BoolEventListener, a component that listens for scriptable object events with bool payloads.
 - StringEvent class, a scriptable object event that takes a string as payload.
+- StringEventListener, a component that listens for scriptable object events with string payloads.
