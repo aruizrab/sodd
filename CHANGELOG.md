@@ -18,3 +18,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - EventListener abstract class as base for all event listener components.
 - IntEventListener, a component that listens for scriptable object events with int payloads.
 - FloatEventListener, a component that listens for scriptable object events with float payloads.
+- BoolEventListener, a component that listens for scriptable object events with bool payloads.
