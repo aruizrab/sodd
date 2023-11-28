@@ -63,60 +63,61 @@ namespace SODD
         {
             public const string Path = Root + "Events/";
 
-            public const string Void = Path + "Void";
-            public const string Bool = Path + "Bool";
-            public const string Float = Path + "Float";
-            public const string Int = Path + "Int";
-            public const string String = Path + "String";
-            public const string Enum = Path + "Enum";
-            public const string List = Path + "List";
-            public const string Dictionary = Path + "Dictionary";
-            public const string Vector2 = Path + "Vector2";
-            public const string Vector3 = Path + "Vector3";
-            public const string Color = Path + "Color";
-            public const string LayerMask = Path + "LayerMask";
-            public const string AudioClip = Path + "Audio Clip";
-            public const string GameObject = Path + "GameObject";
-            public const string Component = Path + "Component";
-            public const string Reference = Path + "Reference";
+            public const string Void = Path + DataTypes.Void;
+            public const string Bool = Path + DataTypes.Bool;
+            public const string Float = Path + DataTypes.Float;
+            public const string Int = Path + DataTypes.Int;
+            public const string String = Path + DataTypes.String;
+            public const string Enum = Path + DataTypes.Enum;
+            public const string List = Path + DataTypes.List;
+            public const string Dictionary = Path + DataTypes.Dictionary;
+            public const string Vector2 = Path + DataTypes.Vector2;
+            public const string Vector3 = Path + DataTypes.Vector3;
+            public const string Color = Path + DataTypes.Color;
+            public const string LayerMask = Path + DataTypes.LayerMask;
+            public const string AudioClip = Path + DataTypes.AudioClip;
+            public const string GameObject = Path + DataTypes.GameObject;
+            public const string Component = Path + DataTypes.Component;
+            public const string Reference = Path + DataTypes.Reference;
         }
         public static class EventListeners
         {
+            public const string Name = "Event Listener";
             public const string Path = Root + "Event Listeners/";
             
-            public const string Void = Path + "Void";
-            public const string Bool = Path + "Bool";
-            public const string Float = Path + "Float";
-            public const string Int = Path + "Int";
-            public const string String = Path + "String";
-            public const string Enum = Path + "Enum";
-            public const string List = Path + "List";
-            public const string Dictionary = Path + "Dictionary";
-            public const string Vector2 = Path + "Vector2";
-            public const string Vector3 = Path + "Vector3";
-            public const string Color = Path + "Color";
-            public const string LayerMask = Path + "LayerMask";
-            public const string AudioClip = Path + "Audio Clip";
-            public const string GameObject = Path + "GameObject";
-            public const string Component = Path + "Component";
-            public const string Reference = Path + "Reference";
+            public const string Void = Path + DataTypes.Void;
+            public const string Bool = Path + DataTypes.Bool;
+            public const string Float = Path + DataTypes.Float;
+            public const string Int = Path + DataTypes.Int;
+            public const string String = Path + DataTypes.String;
+            public const string Enum = Path + DataTypes.Enum;
+            public const string List = Path + DataTypes.List;
+            public const string Dictionary = Path + DataTypes.Dictionary;
+            public const string Vector2 = Path + DataTypes.Vector2;
+            public const string Vector3 = Path + DataTypes.Vector3;
+            public const string Color = Path + DataTypes.Color;
+            public const string LayerMask = Path + DataTypes.LayerMask;
+            public const string AudioClip = Path + DataTypes.AudioClip;
+            public const string GameObject = Path + DataTypes.GameObject;
+            public const string Component = Path + DataTypes.Component;
+            public const string Reference = Path + DataTypes.Reference;
 
-            public const string VoidEventListener = Path + "Void Event Listener";
-            public const string BoolEventListener = Path + "Bool Event Listener";
-            public const string FloatEventListener = Path + "Float Event Listener";
-            public const string IntEventListener = Path + "Int Event Listener";
-            public const string StringEventListener = Path + "String Event Listener";
-            public const string EnumEventListener = Path + "Enum Event Listener";
-            public const string ListEventListener = Path + "List Event Listener";
-            public const string DictionaryEventListener = Path + "Dictionary Event Listener";
-            public const string Vector2EventListener = Path + "Vector2 Event Listener";
-            public const string Vector3EventListener = Path + "Vector3 Event Listener";
-            public const string ColorEventListener = Path + "Color Event Listener";
-            public const string LayerMaskEventListener = Path + "LayerMask Event Listener";
-            public const string AudioClipEventListener = Path + "Audio Event Listener Clip";
-            public const string GameObjectEventListener = Path + "GameObject Event Listener";
-            public const string ComponentEventListener = Path + "Component Event Listener";
-            public const string ReferenceEventListener = Path + "Reference Event Listener";
+            public const string VoidEventListener = Path + DataTypes.Void + Name;
+            public const string BoolEventListener = Path + DataTypes.Bool + Name;
+            public const string FloatEventListener = Path + DataTypes.Float + Name;
+            public const string IntEventListener = Path + DataTypes.Int + Name;
+            public const string StringEventListener = Path + DataTypes.String + Name;
+            public const string EnumEventListener = Path + DataTypes.Enum + Name;
+            public const string ListEventListener = Path + DataTypes.List + Name;
+            public const string DictionaryEventListener = Path + DataTypes.Dictionary + Name;
+            public const string Vector2EventListener = Path + DataTypes.Vector2 + Name;
+            public const string Vector3EventListener = Path + DataTypes.Vector3 + Name;
+            public const string ColorEventListener = Path + DataTypes.Color + Name;
+            public const string LayerMaskEventListener = Path + DataTypes.LayerMask + Name;
+            public const string AudioClipEventListener = Path + DataTypes.AudioClip + Name;
+            public const string GameObjectEventListener = Path + DataTypes.GameObject + Name;
+            public const string ComponentEventListener = Path + DataTypes.Component + Name;
+            public const string ReferenceEventListener = Path + DataTypes.Reference + Name;
         }
     }
 }

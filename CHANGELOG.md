@@ -16,8 +16,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - BoolEvent class, a scriptable object event that takes a bool as payload.
 - IEventListener interface.
 - EventListener abstract class as base for all event listener components.
-- IntEventListener, a component that listens for scriptable object events with int payloads.
-- FloatEventListener, a component that listens for scriptable object events with float payloads.
-- BoolEventListener, a component that listens for scriptable object events with bool payloads.
+- IntEventListener class, a component that listens for scriptable object events with int payloads.
+- FloatEventListener class, a component that listens for scriptable object events with float payloads.
+- BoolEventListener class, a component that listens for scriptable object events with bool payloads.
 - StringEvent class, a scriptable object event that takes a string as payload.
-- StringEventListener, a component that listens for scriptable object events with string payloads.
+- StringEventListener class, a component that listens for scriptable object events with string payloads.
+- Vector2Event class, a scriptable object event that takes a Vector2 as payload.
