@@ -24,3 +24,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Vector2Event class, a scriptable object event that takes a Vector2 as payload.
 - Vector2EventListener class, a component that listens for scriptable object events with Vector2 payloads.
 - Vector3Event class, a scriptable object event that takes a Vector3 as payload.
+- Vector3EventListener class, a component that listens for scriptable object events with Vector3 payloads.
