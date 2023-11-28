@@ -29,3 +29,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Variable abstract class as base for all scriptable object variables.
 - IntVariable class, a scriptable object variable that holds integer values.
 - FloatVariable class, a scriptable object variable that holds float values.
+- BoolVariable class, a scriptable object variable that holds bool values.
