@@ -80,6 +80,7 @@ namespace SODD
             public const string Component = Path + DataTypes.Component;
             public const string Reference = Path + DataTypes.Reference;
         }
+        
         public static class EventListeners
         {
             public const string Name = "Event Listener";
@@ -118,6 +119,28 @@ namespace SODD
             public const string GameObjectEventListener = Path + DataTypes.GameObject + Name;
             public const string ComponentEventListener = Path + DataTypes.Component + Name;
             public const string ReferenceEventListener = Path + DataTypes.Reference + Name;
+        }
+        
+        public static class Variables
+        {
+            public const string Path = Root + "Variables/";
+
+            public const string Void = Path + DataTypes.Void;
+            public const string Bool = Path + DataTypes.Bool;
+            public const string Float = Path + DataTypes.Float;
+            public const string Int = Path + DataTypes.Int;
+            public const string String = Path + DataTypes.String;
+            public const string Enum = Path + DataTypes.Enum;
+            public const string List = Path + DataTypes.List;
+            public const string Dictionary = Path + DataTypes.Dictionary;
+            public const string Vector2 = Path + DataTypes.Vector2;
+            public const string Vector3 = Path + DataTypes.Vector3;
+            public const string Color = Path + DataTypes.Color;
+            public const string LayerMask = Path + DataTypes.LayerMask;
+            public const string AudioClip = Path + DataTypes.AudioClip;
+            public const string GameObject = Path + DataTypes.GameObject;
+            public const string Component = Path + DataTypes.Component;
+            public const string Reference = Path + DataTypes.Reference;
         }
     }
 }

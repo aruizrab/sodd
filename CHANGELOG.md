@@ -27,3 +27,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Vector3EventListener class, a component that listens for scriptable object events with Vector3 payloads.
 - IVariable interface.
 - Variable abstract class as base for all scriptable object variables.
+- IntVariable class, a scriptable object variable that holds integer values.
