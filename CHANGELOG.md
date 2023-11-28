@@ -22,3 +22,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - StringEvent class, a scriptable object event that takes a string as payload.
 - StringEventListener class, a component that listens for scriptable object events with string payloads.
 - Vector2Event class, a scriptable object event that takes a Vector2 as payload.
+- Vector2EventListener class, a component that listens for scriptable object events with Vector2 payloads.
