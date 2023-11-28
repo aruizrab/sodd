@@ -44,7 +44,7 @@ namespace SODD.Variables
             set
             {
                 if (readOnly) return;
-                if (this.value.Equals(value)) return;
+                if (this.value != null && this.value.Equals(value)) return;
                 this.value = value;
                 OnValueChanged?.Invoke(value);
             }
